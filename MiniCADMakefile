@@ -1,0 +1,4 @@
+build:
+	javac container/*.java fileio/implementations/*.java forme/*.java interfete/*.java *.java -d .
+clean:
+	rm *.class
